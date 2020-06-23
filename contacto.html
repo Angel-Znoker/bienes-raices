@@ -44,8 +44,8 @@
 					<label for="email">Email:</label>
 					<input type="email" id="email" placeholder="Tu Correo Electrónico" required>
 
-					<label for="telefono">Teléfono:</label>
-					<input type="tel" id="telefono" placeholder="Tu Teléfono">
+					<label for="tel">Teléfono:</label>
+					<input type="tel" id="tel" placeholder="Tu Teléfono">
 
 					<label for="mensaje">Mensaje:</label>
 					<textarea id="mensaje"></textarea>
@@ -69,11 +69,13 @@
 					<legend>Contacto</legend>
 
 					<p>Como desea ser Contactado:</p>
-					<label for="telefono">Teléfono</label>
-					<input type="radio" name="contacto" value="telefono" id="telefono">
+					<div class="forma-contacto">
+						<label for="telefono">Teléfono</label>
+						<input type="radio" name="contacto" value="telefono" id="telefono">
 
-					<label for="correo">E-mail</label>
-					<input type="radio" name="contacto" value="correo" id="correo">
+						<label for="correo">E-mail</label>
+						<input type="radio" name="contacto" value="correo" id="correo">
+					</div>
 
 					<p>Si eligió Teléfono, elija la fecha y la hora</p>
 					<label for="fecha">Fecha:</label>
